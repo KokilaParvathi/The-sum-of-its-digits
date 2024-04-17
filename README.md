@@ -1,8 +1,7 @@
-# The-sum-of-its-digits
+//The-sum-of-its-digits
 #include <stdio.h>
 #include <math.h>
 int main() {
-	
     int n,l,sum=0;
     scanf("%d", &n);
     while(n!=0){
@@ -11,4 +10,5 @@ int main() {
         n=n/10;
     }
     printf("%d",sum);
-    return 0;}
+    return 0;
+    }
